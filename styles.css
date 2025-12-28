@@ -7,8 +7,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
   width: 368px;
   height: 512px;
   border-radius: 32px;
+}
+
+.box1 {
+  background: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
+}
+
+.box2 {
+  border: 2px solid black;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0) 100%);
 }
