@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+}
+
+.box1,
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+}
